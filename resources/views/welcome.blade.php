@@ -2,41 +2,19 @@
 
 @section('main-content')
 
+{{-- include main page navbar --}}
+@section('navbar')
+@include('includes.main-navbar')
+@endsection
+{{-- include main page navbar --}}
+
 @include('includes.slider')
 
-<section class="xs-section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7">
-                <div class="xs-feature-text-content">
-                    <div class="xs-heading">
-                        <h2>With your help</h2>
-                        <h3 class="xs-title" data-title="Features">We’ve funded 33,537 water projects for 10
-                            million people around the world.</h3>
-                        <span class="xs-separetor bg-bondiBlue"></span>
-                    </div>
-                    <p>Nancee was referred to the Children of the Night shelter home after being rescued from sex
-                        trafficking by the Colorado FBI. During her stay she completed her GED (High School
-                        Equivalency Exam) and she successfully completed Business 01 and English 28 at the local
-                        community college. Nancee enjoyed her boxing hobby.</p>
-                    <a href="#" class="btn btn-secondary bg-bondiBlue">see more impact</a>
-                </div>
-            </div>
-            <div class="col-lg-5">
-                <div class="xs-feature-image-box image-1">
-                    <img src="assets/images/feature-image-1.png" alt="">
-                </div>
-                <div class="xs-feature-image-box image-2">
-                    <img src="assets/images/feature-image-2.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@include('includes.about')
 
 <section class="bg-gray waypoint-tigger xs-section-padding xs-popularCauses-v2">
     <div class="container">
-        <div class="xs-heading row xs-mb-60">
+        {{-- <div class="xs-heading row xs-mb-60">
             <div class="col-md-9 col-xl-9">
                 <h2 class="xs-title">Popular Causes</h2>
                 <span class="xs-separetor dashed"></span>
@@ -46,230 +24,13 @@
             <div class="col-xl-3 col-md-3 xs-btn-wraper">
                 <a href="#" class="btn btn-primary bg-orange">all Causes</a>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_4.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-light-red">
-                                <p><span class="number-percentage-count number-percentage" data-value="90"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-light-red" href="#">Food</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">Splash Drone 3 a Fully Waterproof Drone that
-                            floats</a>
-                        <ul class="xs-list-with-content">
-                            <li>$67,000<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="90"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>3<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_1.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Ema Watson</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_5.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-purple">
-                                <p><span class="number-percentage-count number-percentage" data-value="59"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-purple" href="#">Health</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">The Read Read: Braille Literacy Tool for the
-                            Blind</a>
-                        <ul class="xs-list-with-content">
-                            <li>$33,600<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="59"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>10<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_2.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Kene Williamson</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_6.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-blue">
-                                <p><span class="number-percentage-count number-percentage" data-value="35"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-blue" href="#">Education</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">BuildOne: $99 3D Printer w/ WiFi and Auto Bed
-                            Leveling!</a>
-                        <ul class="xs-list-with-content">
-                            <li>$12,760<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="35"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>66<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_3.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Leo Baddabes</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_7.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-burntOrange">
-                                <p><span class="number-percentage-count number-percentage" data-value="85"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-burntOrange" href="#">Charity</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">DACBerry PRO – Professional Soundcard for
-                            Raspberry Pi</a>
-                        <ul class="xs-list-with-content">
-                            <li>$99,980<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="85"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>2<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_4.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Jhung Li</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_8.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-riptide">
-                                <p><span class="number-percentage-count number-percentage" data-value="74"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-riptide" href="#">Cave</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">BIKI: First Bionic Wireless Under water Fish
-                            Drone</a>
-                        <ul class="xs-list-with-content">
-                            <li>$40,000<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="74"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>70<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_5.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Chirstina Perry</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="xs-popular-item xs-box-shadow">
-                    <div class="xs-item-header">
-                        <img src="assets/images/causes/causes_11.jpg" alt="">
-                        <div class="xs-skill-bar">
-                            <div class="xs-skill-track bg-orange">
-                                <p><span class="number-percentage-count number-percentage" data-value="89"
-                                        data-animation-duration="3500">0</span>%</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="xs-item-content">
-                        <ul class="xs-simple-tag xs-mb-20">
-                            <li><a class="color-orange" href="#">Watar</a></li>
-                        </ul>
-                        <a href="#" class="xs-post-title xs-mb-30">Brilliant After All, A New Album by Rebecca:
-                            Help poor people</a>
-                        <ul class="xs-list-with-content">
-                            <li>$98,980<span>Pledged</span></li>
-                            <li><span class="number-percentage-count number-percentage" data-value="89"
-                                    data-animation-duration="3500">0</span>% <span>Funded</span></li>
-                            <li>2<span>Days to go</span></li>
-                        </ul>
-                        <span class="xs-separetor"></span>
-                        <div class="row xs-margin-0">
-                            <div class="xs-round-avatar">
-                                <img src="assets/images/avatar/avatar_6.jpg" alt="">
-                            </div>
-                            <div class="xs-avatar-title">
-                                <a href="#"><span>By</span>Prekina William</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="xs-section-padding">
-    <div class="container">
+        </div> --}}
         <div class="row">
             <div class="col-md-12 col-lg-6">
                 <div class="xs-text-content xs-pr-20">
-                    <h2 class="color-navy-blue">Welcome to CharityPress please rise your hand</h2>
-                    <p>The CharityPress community was named a “Top 25 Best Global Philanthropist” by Barron’s. We
-                        beat Oprah. And, Mashable named CharityPress something like “the best place to raise money
+                    <h2 class="color-navy-blue">Welcome to Abusufyan International Foundation.</h2>
+                    <p>The Abusufyan International Foundation community was named a “Top 25 Best Global Philanthropist” by Barron’s. We
+                        beat Oprah. And, Mashable named Abusufyan International Foundation something like “the best place to raise money
                         online for your favorite causes.”</p>
                     <blockquote>
                         If you don't understand how fast and easy it is to so long for your favorite charity on
@@ -293,6 +54,38 @@
         </div>
     </div>
 </section>
+
+{{-- <section class="xs-section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="xs-text-content xs-pr-20">
+                    <h2 class="color-navy-blue">Welcome to Abusufyan International Foundation.</h2>
+                    <p>The Abusufyan International Foundation community was named a “Top 25 Best Global Philanthropist” by Barron’s. We
+                        beat Oprah. And, Mashable named Abusufyan International Foundation something like “the best place to raise money
+                        online for your favorite causes.”</p>
+                    <blockquote>
+                        If you don't understand how fast and easy it is to so long for your favorite charity on
+                        FundPress, please try it. <span>How it works</span> page, <span>Contact us</span>.
+                    </blockquote>
+                    <a href="#" class="btn btn-primary bg-light-red">
+                        <span class="badge"><i class="fa fa-heart"></i></span> Donate Now
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-feature-image">
+                    <img src="assets/images/features_1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-feature-image">
+                    <img src="assets/images/features_2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}
 
 <div class="xs-section-paddding xs-ipad-overlay xs-funFact-v3 waypoint-tigger"
     style="background-image: url('assets/images/backgrounds/funfact-bg-image.png')">

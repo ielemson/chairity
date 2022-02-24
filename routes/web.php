@@ -22,8 +22,23 @@ Route::get('/', function () {
         'current_date' => date('Y-m-d')])->save();
 
     return view('welcome');
-    
+
+// Route::get();
 })->name('welcome');
+
+
+Route::get('/about',function(){
+
+    return view('pages.about');
+
+})->name('about');
+
+Route::get('/contact',function(){
+
+    return view('pages.contact');
+
+})->name('contact');
+
 
 Route::group(['middleware' => ['role:admin']], function () {
 	Route::resource('permissions', 'Admin\PermissionsController');

@@ -3,11 +3,12 @@
         <div class="xs-footer-top-layer">
             <div class="row">
                 <div class="col-lg-3 col-md-6 footer-widget xs-pr-20">
-                    <a href="index.html" class="xs-footer-logo">
+                    {{-- <a href="index.html" class="xs-footer-logo">
                         <img src="assets/images/footer_logo.png" alt="">
-                    </a>
-                    <p>CharityPress online and raise money for charity and causes you’re passionate about.
-                        CharityPress is an innovative, cost-effective online.</p>
+                    </a> --}}
+                    <b class="text-white text-lg">Abusufyan International Foundation</b>
+                    <p>  Our foundation is a nonprofit organization, born out of the interest to help anyone and
+                        everyone regardless of their background differences..</p>
                     <ul class="xs-social-list-v2">
                         <li><a href="#" class="color-facebook"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#" class="color-twitter"><i class="fa fa-twitter"></i></a></li>
@@ -18,12 +19,12 @@
                 <div class="col-lg-2 col-md-6 footer-widget">
                     <h3 class="widget-title">About Us</h3>
                     <ul class="xs-footer-list">
-                        <li><a href="index.html">About employee</a></li>
+                        <li><a href="{{route('about')}}">About employee</a></li>
                         <li><a href="#">How it works</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Press</a></li>
                         <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 footer-widget">
@@ -104,7 +105,7 @@
                 <div class="col-md-6">
                     <div class="xs-copyright-text">
                         <p>&copy; Copyright {{Date('Y')}} <a
-                                href="https://ielemson.com">ielemson</a> - All
+                                href="https://ielemson.com">KleenKoders</a> - All
                             Right's Reserved</p>
                     </div>
                 </div>

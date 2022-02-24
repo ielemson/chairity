@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Charity Press - Home Three</title>
-    <meta name="description" content="">
+    <title> Abusufyan International Foundation - Home</title>
+    <meta name="description" content="Abusufyan International Foundation  None-Profite Organization NGO ">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto+Slab:400,700"
         rel="stylesheet">
@@ -47,7 +47,7 @@
         </div>
     </div>
 
-    @include('layouts.frontend-partials.nav')
+    @yield('navbar')
 
     @yield('main-content')
     

@@ -16,12 +16,12 @@
                     </div>
                     <div class="col-lg-9">
                         <ul class="nav-menu">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="{{route('welcome')}}">Home</a></li>
                             <li><a href="{{route('about')}}">About</a></li>
                             <li><a href="#">Causes</a></li>
                             <li><a href="#">Events</a>
                             </li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="{{route('contact')}}">Contact</a></li>
                             <li><a href=""><b class="btn btn-primary bg-bondiBlue"><i class="fa fa-heart"></i> Donate Now</b></a></li>
                         </ul>
                     </div>
