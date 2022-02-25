@@ -9,7 +9,7 @@
     </div>
     <div class="nav-menus-wrapper row">
     <div class="xs-logo-wraper col-lg-2 xs-padding-0">
-    <a class="nav-brand" href="index.html">
+    <a class="nav-brand" href="{{route('welcome')}}">
     <img src="assets/images/logo.png" alt="">
     </a>
     </div>

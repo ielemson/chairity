@@ -41,153 +41,16 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            <div class="col-md-6 col-lg-6">
                 <div class="xs-feature-image">
                     <img src="assets/images/features_1.jpg" alt="">
                 </div>
             </div>
-            <div class="col-md-6 col-lg-3">
+            {{-- <div class="col-md-6 col-lg-3">
                 <div class="xs-feature-image">
                     <img src="assets/images/features_2.jpg" alt="">
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-{{-- <section class="xs-section-padding">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <div class="xs-text-content xs-pr-20">
-                    <h2 class="color-navy-blue">Welcome to Abusufyan International Foundation.</h2>
-                    <p>The Abusufyan International Foundation community was named a “Top 25 Best Global Philanthropist” by Barron’s. We
-                        beat Oprah. And, Mashable named Abusufyan International Foundation something like “the best place to raise money
-                        online for your favorite causes.”</p>
-                    <blockquote>
-                        If you don't understand how fast and easy it is to so long for your favorite charity on
-                        FundPress, please try it. <span>How it works</span> page, <span>Contact us</span>.
-                    </blockquote>
-                    <a href="#" class="btn btn-primary bg-light-red">
-                        <span class="badge"><i class="fa fa-heart"></i></span> Donate Now
-                    </a>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-feature-image">
-                    <img src="assets/images/features_1.jpg" alt="">
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-feature-image">
-                    <img src="assets/images/features_2.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-</section> --}}
-
-<div class="xs-section-paddding xs-ipad-overlay xs-funFact-v3 waypoint-tigger"
-    style="background-image: url('assets/images/backgrounds/funfact-bg-image.png')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5"></div>
-            <div class="col-lg-7">
-                <div class="xs-funfact-content-wraper">
-                    <div class="xs-heading">
-                        <h2 class="xs-title">There's no limit to what you could raise!</h2>
-                        <p>Just by shopping online for new clothes via Give as you Live, means you could easily
-                            raise £10 a year for your charity. There are hundreds of leading retailers including
-                            M&S, Asos, Debenhams, House of Fraser, Next and New Look.</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="media xs-single-funFact-v3 xs-mb-50">
-                                <span class="d-flex icon-children"></span>
-                                <div class="media-body">
-                                    <span class="number-percentage-count number-percentage" data-value="1900"
-                                        data-animation-duration="3500">0</span>
-                                    <small>Children rescued</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="media xs-single-funFact-v3  xs-mb-50">
-                                <span class="d-flex icon-coin"></span>
-                                <div class="media-body">
-                                    <span class="funfact-sign">$</span>
-                                    <span class="number-percentage-count number-percentage" data-value="56000"
-                                        data-animation-duration="3500">0</span>
-                                    <small>Total donation</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="media xs-single-funFact-v3">
-                                <span class="d-flex icon-like"></span>
-                                <div class="media-body">
-                                    <span class="number-percentage-count number-percentage" data-value="2000"
-                                        data-animation-duration="3500">0</span>
-                                    <small>Project completed</small>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="media xs-single-funFact-v3">
-                                <span class="d-flex icon-team_2"></span>
-                                <div class="media-body">
-                                    <span class="number-percentage-count number-percentage" data-value="120"
-                                        data-animation-duration="3500">0</span>
-                                    <small>Active volunteer</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section class="xs-content-section-padding">
-    <div class="container">
-        <div class="xs-heading row col-lg-10 xs-mb-70 text-center mx-auto">
-            <h2 class="xs-mb-0 xs-title">We’ve funded <span class="color-green">120,00 charity projects</span>
-                for 20M people around the world.</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-service-promo">
-                    <span class="icon-water color-orange"></span>
-                    <h5>Pure Water <br>For Poor People</h5>
-                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
-                        boost local economies.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-service-promo">
-                    <span class="icon-groceries color-red"></span>
-                    <h5>Healty Food <br>For Poor People</h5>
-                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
-                        boost local economies.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-service-promo">
-                    <span class="icon-heartbeat color-purple"></span>
-                    <h5>Medical <br>Facilities for People</h5>
-                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
-                        boost local economies.</p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="xs-service-promo">
-                    <span class="icon-open-book color-green"></span>
-                    <h5>Pure Education <br>For Every Children</h5>
-                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
-                        boost local economies.</p>
-                </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
@@ -236,6 +99,51 @@
         </div>
     </div>
 </section>
+
+<section class="xs-content-section-padding">
+    <div class="container">
+        <div class="xs-heading row col-lg-10 xs-mb-70 text-center mx-auto">
+            <h2 class="xs-mb-0 xs-title">We’ve funded <span class="color-green">120,00 charity projects</span>
+                for 20M people around the world.</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-service-promo">
+                    <span class="icon-water color-orange"></span>
+                    <h5>Pure Water <br>For Poor People</h5>
+                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
+                        boost local economies.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-service-promo">
+                    <span class="icon-groceries color-red"></span>
+                    <h5>Healty Food <br>For Poor People</h5>
+                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
+                        boost local economies.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-service-promo">
+                    <span class="icon-heartbeat color-purple"></span>
+                    <h5>Medical <br>Facilities for People</h5>
+                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
+                        boost local economies.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="xs-service-promo">
+                    <span class="icon-open-book color-green"></span>
+                    <h5>Pure Education <br>For Every Children</h5>
+                    <p>663 million people drink dirty water. Learn how access to clean water can improve health,
+                        boost local economies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 
 <section class="xs-section-padding">
     <div class="container">
@@ -339,7 +247,7 @@
         </div>
     </div>
 </section>
-
+{{-- 
 <section class="bg-gray xs-partner-section" style="background-image: url('assets/images/map.png');">
     <div class="container">
         <div class="row">
@@ -369,9 +277,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
-<section class="xs-section-padding">
+{{-- <section class="xs-section-padding">
     <div class="container">
         <div class="xs-heading row xs-mb-60">
             <div class="col-md-9 col-xl-9">
@@ -502,5 +410,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 @endsection
