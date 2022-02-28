@@ -56,6 +56,32 @@
         </div>
       </li>
 
+
+          <li {{Route::is('location.index')||Route::is('location.create')||Route::is('location.edit')? 'class=active':''}}>
+          <a data-toggle="collapse" href="#locations" aria-expanded="false" class="collapsed">
+              <i class="nc-icon nc-map-big"></i>
+              <p>Manage Location</p>
+              <b class="caret"></b>
+          </a>
+        <div class="collapse" id="locations" aria-expanded="false" style="height: 0px;">
+          <ul class="nav">
+            <li {{Route::is('location.index')||Route::is('location.create')||Route::is('location.edit')? 'class=active':''}}>
+              <a href="{{route('location.create')}}">
+              <i class="nc-icon nc-single-02"></i>
+                  <p>Create Location</p>
+              </a>
+            </li>
+            <li {{Route::is('roles.index')||Route::is('roles.create')||Route::is('roles.edit')? 'class=active':''}}>
+              <a href="{{route('location.index')}}">
+              <i class="nc-icon nc-single-02"></i>
+                  <p>All Locations </p>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </li>
+
       @endrole
 
       <li {{Route::is('profile.index')? 'class=active':''}}>

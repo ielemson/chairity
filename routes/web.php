@@ -39,11 +39,18 @@ Route::get('/contact',function(){
 
 })->name('contact');
 
+// Donate Resource Controller
+Route::resource('donate','DonateController');
+
+// 
+
+Route::get('search', 'CompanySearchController@action')->name('companysearch.action');
 
 Route::group(['middleware' => ['role:admin']], function () {
 	Route::resource('permissions', 'Admin\PermissionsController');
     Route::resource('roles', 'Admin\RolesController');
     Route::resource('users', 'Admin\UsersController');
+    Route::resource('location', 'Admin\CompanyLocationController');
     Route::get('login-activities',[
         'as' => 'login-activities',
         'uses' => 'Admin\UsersController@indexLoginLogs'

@@ -24,7 +24,7 @@
     </ul>
     </div>
     <div class="xs-navs-button d-flex-center-end col-lg-3">
-    <a href="#" class="btn btn-primary">
+    <a href="{{route('donate.index')}}" class="btn btn-primary">
     <span class="badge"><i class="fa fa-heart"></i></span> Donate Now
     </a>
     </div>

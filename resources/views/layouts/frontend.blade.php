@@ -27,12 +27,8 @@
 
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel='stylesheet alternate' title='color-1' type='text/css' href='assets/css/colors/color-1.css'>
-    {{-- <link rel='stylesheet alternate' title='color-2' type='text/css' href='assets/css/colors/color-2.css'> --}}
-    {{-- <link rel='stylesheet alternate' title='color-3' type='text/css' href='assets/css/colors/color-3.css'> --}}
-    {{-- <link rel='stylesheet alternate' title='color-4' type='text/css' href='assets/css/colors/color-4.css'> --}}
-    {{-- <link rel='stylesheet alternate' title='color-5' type='text/css' href='assets/css/colors/color-5.css'> --}}
-    {{-- <link rel='stylesheet alternate' title='color-6' type='text/css' href='assets/css/colors/color-6.css'> --}}
-    {{-- <link rel='stylesheet alternate' title='color-7' type='text/css' href='assets/css/colors/color-7.css'> --}}
+      @stack('extra-css')
+
 </head>
 
 <body>
@@ -65,6 +61,8 @@
         <script src="{{asset('assets/js/spectragram.min.js')}}"></script>
 {{-- <script src="https://maps.googleapis.com/maps/api/js?v=3&amp;key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k"></script> --}}
         <script src="{{asset('assets/js/main.js')}}"></script>
+
+        @stack('extra-js')
 </body>
 
 </html>

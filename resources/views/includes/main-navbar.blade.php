@@ -22,7 +22,7 @@
                             <li><a href="#">Events</a>
                             </li>
                             <li><a href="{{route('contact')}}">Contact</a></li>
-                            <li><a href=""><b class="btn btn-primary bg-bondiBlue"><i class="fa fa-heart"></i> Donate Now</b></a></li>
+                            <li><a href="{{route('donate.index')}}"><b class="btn btn-primary bg-bondiBlue"><i class="fa fa-heart"></i> Donate Now</b></a></li>
                         </ul>
                     </div>
                 </div>

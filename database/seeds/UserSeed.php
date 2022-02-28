@@ -20,7 +20,7 @@ class UserSeed extends Seeder
         $user->assignRole('admin');
 
         $user = User::create([
-            'name' => 'Mahantesh Kumbar',
+            'name' => 'Elemson Ifeanyi',
             'email' => 'user@user.com',
             'password' => bcrypt('password')
         ]);
